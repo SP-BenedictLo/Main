@@ -8,28 +8,21 @@
 using namespace std;
 
 int main() {
-    int age = 0;
-    double weight, F, F_1, F_2;
-    const char* name;
+    int age=0;
+    double weight, F;
     cout << "This program is done by...\nName: Lo Wing Sing, Benedict\nAdm No: P2421777";
-    cout << "\n1";
-    while (age < 1) {
-        cout << "\n2";
+    while (age <= 0) {
         cout << "\n\nEnter your age: ";
         cin >> age;
     }
-    if (age < 21) {
-        cout << "\nYour age must be 21 or older.";
-        cout << "\n3";
-        continue;
-    }
-    else {
+    if (age >= 21) {
         cout << "\nEnter your weight in Kg: ";
         cin >> weight;
         F = -(double(age) / 40) + pow((pow((1 + (weight * weight)), 3) / (age * 3)), 0.5);
         cout << "\nThe computed result is: " << F;
-    
     }
-        
+    else {
+        cout << "\nYour age must be 21 or older.";
+    }
 
 }
