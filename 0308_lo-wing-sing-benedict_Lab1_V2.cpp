@@ -1,8 +1,3 @@
-// Done by: Lo Wing Sing Benedict
-// Class: DCEP/03
-// Admin No: P2421777
-// S\N: 08
-
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -10,7 +5,6 @@ using namespace std;
 int main() {
     int age=0;
     double weight, F;
-    cout << "This program is done by...\nName: Lo Wing Sing, Benedict\nAdm No: P2421777";
     while (age <= 0) {
         cout << "\n\nEnter your age: ";
         cin >> age;
